@@ -36,7 +36,7 @@ public class Userlist extends AppCompatActivity {
         movielist=new ArrayList<>();
         LoadList();
     }
-
+//load list
     private void LoadList() {
         JsonObjectRequest jsonObjectRequest=new JsonObjectRequest(Request.Method.GET, "https://reqres.in/api/users?page=1", null, new Response.Listener<JSONObject>() {
             @Override
