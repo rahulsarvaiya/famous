@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE338"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_dehaze_black_24dp"
+        android:background="#FFFFFF"
+        android:text="Home Screen" />
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/button14"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:textColor="#FFFFFF"
+        android:text="Display Name Here \n Year " />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/button10"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custombutton"
+        android:text="Display Name Here \n year" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_below="@id/button11"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custombutton"
+        android:text="Display Name Here \n Year" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_below="@id/button12"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custombutton"
+        android:text="Display Name Here \n Year" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:text="PRODUCTS" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:text="USERS" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
